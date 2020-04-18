@@ -105,6 +105,7 @@ public class Zombie extends BaseEnemy implements WeaponCarrier {
      *
      * @return The weapons held by the Zombie
      */
+    @Override
     public ArrayList<Weapon> getWeapons() {
         return this.weapons;
     }
@@ -117,6 +118,7 @@ public class Zombie extends BaseEnemy implements WeaponCarrier {
      *
      * @param weapon Weapon The new weapon
      */
+    @Override
     public void addWeapon(Weapon weapon) {
         if (this.weapons.size() < MAX_WEAPONS && !this.isDead()) {
             weapons.add(weapon);

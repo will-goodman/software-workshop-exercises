@@ -37,6 +37,7 @@ public class Weapon implements Entity {
      *
      * @return The weapon as a String
      */
+    @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
 

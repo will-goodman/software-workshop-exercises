@@ -96,6 +96,7 @@ public class BaseEnemy implements Entity {
      *
      * @return The enemy's attributes in a single string
      */
+    @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
 
